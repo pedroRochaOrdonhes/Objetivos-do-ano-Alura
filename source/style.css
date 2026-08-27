@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+title{
+    display: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(down, #00a67f, #0421b5);
+}
+header{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #3856eb;
+}
+header b{
+    font-size: 20px;
+}
+main{
+    margin: 50px;
+    border-radius: 50%;
+    background-color: #3856eb;
+}
+
+.time{
+    flex-direction: row;
+}
