@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     font-size: 15px;
+    color: white;
 }
 title{
     display: none;
@@ -27,8 +28,24 @@ main{
     margin: 50px;
     border-radius: 50%;
     background-color: #3856eb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
 }
-
 .time{
     flex-direction: row;
+    font-size: 30px;
+}
+.topics{
+    height: 50px;
+    width: 100%;
+    background-color: #0421b5;
+    flex-wrap: nowrap;       
+    overflow-x: auto;  
+    overflow-y: hidden; 
+}
+.title{
+    font-size: 23px;
+    padding: 10px;
 }
